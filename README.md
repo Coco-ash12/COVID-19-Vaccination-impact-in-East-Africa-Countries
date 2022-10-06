@@ -2,7 +2,7 @@
 This project aims at highlighting the influence of COVID-19 vaccination in reducing the mortality rate of COVID-19 in East Africa.
 Combined and derived metrics were sourced, then cleaned of irrelevant data with MS Excel, while pgAdmin4(PostgreSQL) was used to edit queries for data exploration and data visualization was done with Tableau.
 
-Metrics includes:
+Metrics in the **East Africa COVID_19 Vaccinations.xlsx** includes:
 | Variable | Description |
 | -------- | ----------- |
 |Country  | Name of East African countries|
@@ -21,8 +21,9 @@ Metrics includes:
 |Tests_per_1Mpop	| Covid tests done per 1 million of the population|
 |Population	| Population of the country|
 
+
 Variables - People_fully_vaccinated and People_vaccinated_atleastonce were derived with PostgreSQL:  
-derived_vaccination.sql
+**derived_vaccination.sql**
 
 **Data cleaning tool: MS Excel  
 Query editing tool: PostgreSQL(pgAdmin4)  
